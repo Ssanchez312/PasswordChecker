@@ -1,15 +1,15 @@
-﻿using PasswordCheckLogic;
+﻿
 using System.Text.RegularExpressions;
 Console.WriteLine("=== Password Strength Checker ===\n");
 
 while (true)
 {
     Console.Write("Enter a password to check (or 'quit' to exit): ");
-    string input = Console.ReadLine();
+    string? input = Console.ReadLine();
 
     if (input?.ToLower() == "quit") break;
 
-    CheckPasswordStrength(input);
+    CheckPasswordStrength(input!);
     Console.WriteLine();
 }
 
