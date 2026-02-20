@@ -1,7 +1,9 @@
 Password Strength Checker
+
 A simple console-based password strength checker written in C#. Built for educational purposes to demonstrate basic password evaluation techniques
 
 What It Does
+
 This program evaluates the strength of a user-provided password by checking it against a set of common security criteria:
 
 - Minimum length of 8 characters
@@ -27,6 +29,7 @@ Steps:
 5. Run the program
 
 Limitations & Warnings
+
 This program is for educational use only and should not be used to make real password security decisions
 
 Please be aware that:
